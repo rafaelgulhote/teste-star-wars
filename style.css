@@ -1,9 +1,5 @@
 body{
-<<<<<<< HEAD
-    background-image: url(/img/star-background.jpg);
-=======
     background-image: url(https://image.ibb.co/eBAHG9/star-background.jpg);
->>>>>>> master
     background-repeat:repeat;
 }
 h1,h2,h3,h4,h5,p{
@@ -30,11 +26,7 @@ h3{
 }
 .nome-planeta{
 border: 4px #d9cc1b solid;
-<<<<<<< HEAD
-background-image: url(/img/star-background.jpg);
-=======
 background-image: url(https://image.ibb.co/eBAHG9/star-background.jpg);
->>>>>>> master
 }
 #botao{
     background-color: #d9cc1b;
