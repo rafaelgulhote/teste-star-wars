@@ -1,0 +1,90 @@
+body{
+    background-image: url(https://apamphylia.comoficou.com.br/wp-content/uploads/2018/10/star-background.jpg);
+    background-repeat:repeat;
+}
+h1,h2,h3,h4,h5,p{
+    font-family: 'Lato', sans-serif !important;
+}
+h4{
+    color: #d9cc1b;
+}
+h3{
+    color: #ae0606;
+    text-transform: uppercase;
+    
+}
+#titulo{
+    color:#d9cc1b;
+    text-align: center;
+    position:relative;
+    bottom: 50px;
+
+}
+.logo{
+  text-align: center;
+
+}
+.nome-planeta{
+border: 4px #d9cc1b solid;
+background-image: url(https://apamphylia.comoficou.com.br/wp-content/uploads/2018/10/star-background.jpg);
+}
+#botao{
+    background-color: #d9cc1b;
+    color: #ae0606;
+    border:none;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    transition: 0.4s ease-out;
+    
+    
+}
+#botao:hover{
+    color:black;
+    background-color: #ae0606;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+    
+}
+.card{
+    width: 55vw;
+}
+
+.fa-jedi{
+    color: #d9cc1b;
+    position: relative;
+    top:5px;
+}
+#nome{
+    text-align: center;
+    color:#ae0606;
+    text-transform: uppercase;
+}
+
+@media (max-width:320px){
+#titulo{
+    position:relative;
+    left:34px;
+}
+.card{
+    position: relative;
+    left: 30px;
+}
+#botao{
+    position: relative;
+    left: 23px;
+}
+h3,h4{
+    font-size: 12px;
+}
+}
+@media (max-width:425px){
+    .card{
+        width: 100%;
+    }
+}
+@media(min-width:375px) and (max-width:1024px){
+    h3,h4{
+        font-size:15px;
+    }
+}
