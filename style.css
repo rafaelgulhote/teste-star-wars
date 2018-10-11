@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://apamphylia.comoficou.com.br/wp-content/uploads/2018/10/star-background.jpg);
+    background-image: url(img/star-background.jpg);
     background-repeat:repeat;
 }
 h1,h2,h3,h4,h5,p{
@@ -26,7 +26,7 @@ h3{
 }
 .nome-planeta{
 border: 4px #d9cc1b solid;
-background-image: url(https://apamphylia.comoficou.com.br/wp-content/uploads/2018/10/star-background.jpg);
+background-image: url(img/star-background.jpg);
 }
 #botao{
     background-color: #d9cc1b;
