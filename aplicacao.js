@@ -10,7 +10,7 @@ let filme = document.querySelector('#filme');
 
 function pegaDados(){
     let pegaAleatorio = Math.floor((Math.random() * 61) + 1);
-    let planetaAleatorio = 'https://swapi.co/api/planets/' + pegaAleatorio;
+    let planetaAleatorio = 'https://swapi.dev/api/planets/' + pegaAleatorio;
     
 
     axios.get(planetaAleatorio).then(function(response){
